@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorreoElectronico.cs" />
+    <Compile Include="GestorDeUsuario.cs" />
     <Compile Include="LychrelNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -20,7 +20,18 @@ namespace AlgoritmosPruebasYMore
             {
                 Console.WriteLine("Ingresa un correo electrónico válido o inválido, con [Parar] dejas de probar");
                 correo = Console.ReadLine();
-                Console.WriteLine(CorreoElectronico.CorreoValido(correo));
+
+                if(CorreoElectronico.CorreoValido(correo))
+                {
+                    Console.WriteLine("Es un correo válido.");
+                }
+                else
+                {
+                    if(correo != "Parar")
+                    {
+                       Console.WriteLine("No es un correo válido.");
+                    }    
+                }
             }
 
         }
